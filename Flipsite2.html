@@ -1,0 +1,2777 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="website icon" href="Flip.png">
+
+        <link rel="stylesheet" href="Flipsite.css">
+
+    <style>
+
+        #Heading12 {
+                                        width: 100%;
+                                        height:23px;
+                                        padding: 8px;
+                                        background-color: white;
+                                        border:1px outset white;
+                                        text-align: center;
+
+                                        position: absolute;
+                                        top: 60px;
+                                        right: 0;
+        }
+
+        .flex-box-1{
+                                        display: inline;
+                                        margin: 28px;
+        }
+
+        .flex-box-2 {
+                                        text-decoration: none;
+                                        color: black;
+                                        font-family: sans-serif;
+                                        font-size: 14px;
+        }
+
+        .flex-box-2:hover {
+                                        color:blue;
+        }
+
+        #Doclist1 {
+                                background-color: white;
+                                border: 1px groove rgb(229, 229, 229);
+                                border-radius: 0 0 6px 6px;
+                                width:81%;
+                                height:550px;
+                                display: none;
+                                cursor: pointer;
+                                 
+                                position: absolute;
+                                top:37px;
+                                left: 130px;
+            }
+
+        .flex-box-1:hover #Doclist1 {
+                                        display: block;
+        }
+
+        
+
+            .listtype1 {
+                                width:248px;
+                                height: 100%;                         
+                                position: absolute;                    
+            }
+
+            .list1 {
+                                color: rgb(126, 126, 126);
+                                text-decoration: none;
+                                font-family: sans-serif;
+            }
+            
+            .list12 {
+                                margin:12px;
+                                text-align: left;
+                                font-size: 13px;
+            }
+
+
+        #Heading13 {
+                                width: 18%;
+                                height: 1010px;
+                                background-color: white;
+                                font-family: sans-serif;
+                                font-size:13px;
+                                
+
+                                position: absolute;
+                                top:110px;
+                                z-index: -1;
+                    }
+
+        #btn1  {
+                                padding:10px 7px;
+                                border:none;
+                                color: black;
+                                font-size: 12px;
+                                font-family: sans-serif;
+                                padding-left: 24px;
+                                word-spacing:7px;
+                                border-radius:3px;
+                                background-color: gainsboro;
+                                text-decoration: none;
+
+                                position:absolute;
+                                top:57px;
+                                left:20px;
+        }
+
+        .samesame {             display: inline;}
+
+        #btn1:hover {
+                                text-decoration: line-through;
+                                background-color: rgb(215, 214, 214);
+        }
+
+        #btn11:hover {
+                                text-decoration: none;
+        }
+
+        #btn11 {
+                                font-size:9px;
+                                position:absolute;
+                                top:0;
+                                left: 8px;
+        }
+        
+        #Heading114 {
+                                width: 80.4%;
+                                height: 330%;
+                                background-color: white;
+                                display:flow-root;
+
+                                position: absolute;
+                                top:110px;
+                                left:290px;
+                                z-index: -1;
+                    }
+
+        .line1 {
+                                color:gray;
+                                text-decoration: none;
+                                font-family: sans-serif;
+                                font-size: 12px;
+        }
+
+        .line2 {
+                                font-size: 9px;
+                                color: gray;
+        }
+
+        #lin1:hover {
+                                color:blue;
+        }
+        
+        .w321 {
+                                color:rgb(0, 119, 255);
+                                text-decoration: none;
+        }
+
+        .page {
+                                display: inline;
+                                list-style-type: none;
+        }
+        
+        .page1 {
+                                margin-right: 20px;
+                                font-family: sans-serif;
+                                color:black;
+                                text-decoration: none;
+                                font-size: 15px;
+                                padding-bottom:5px;
+        }
+
+        .page1:active {
+                                color:rgb(0, 60, 255);
+                                font-weight: bold;
+                                border-bottom: 2px solid rgb(0, 60, 255);
+        }
+
+        .page1:hover {
+                                color:rgb(0, 60, 255);
+                                font-weight: bold;
+                                border-bottom: 2px solid rgb(0, 60, 255);
+        }
+
+        .size1 {
+                                line-height: 8px;
+        }
+
+        .inline1 {
+                                display: inline-block;
+        }
+
+        
+
+        
+
+        .list2{
+                                list-style-type: none;
+                                margin:-44px 20px
+                                
+                                
+                                
+        }
+
+        .list22{
+                                color: black;
+                                width:10px;
+                                
+                                text-decoration: none;
+                                text-align: center;
+                                padding:20px;
+                                border-radius: 70px;
+
+        }
+
+        #page2 {
+                                text-align: center;
+                                font-size: 13px;
+                                margin-left:10px;
+                                margin-top:5px;
+        }
+
+        #page21 {
+                                text-align: center;
+                                margin: auto;
+                                display: flex;
+                                font-weight: bold;
+                                color: black;
+                                text-decoration: none;
+        }
+
+        #Heading15 {
+                                width: 80.4%;
+                                height: 60px;
+                                background-color: white;
+                                display:flow-root;
+
+                                position: absolute;
+                                top:346.4%;
+                                left:290px;
+                                z-index: -1;
+                    }
+
+        #Heading16 {
+                                width: 100%;
+                                height: 220%;
+                                background-color: white;
+                                color:rgb(145, 145, 145);
+                                display:flow-root;
+                                font-family: sans-serif;
+                                font-size: 12px;
+                                border-top: 1px groove rgb(198, 198, 198);
+
+                                position: absolute;
+                                top:359%;
+                                left:0;
+                                z-index: -1;
+                    }
+
+        .color1 {
+                                color:rgba(0, 60, 255, 0.9);
+                                text-decoration: none;
+                                font-size: 10px;
+        }
+
+        .color2 {
+                                color:rgba(0, 60, 255, 0.9);
+                                text-decoration: none;
+        }
+
+        table,tr,th,td {
+                                border:1px solid rgb(145, 145, 145);
+                                border-collapse: collapse;
+                                padding:1px 15px 1px 5px;
+                                text-align: left;
+        }
+
+        input [type=range] {
+                                width: 76%;
+                                border:1px solid green;
+        }
+
+
+
+    </style>
+
+    </head>
+    <body>
+        
+        <div id = 'Heading1'>
+
+            <div id = "d1">
+                
+                <a id = "dd1" href="https://www.flipcart.com"> Flipcart  </a>
+
+            </div>  
+            
+            <div id = "d2">
+                
+                <a id = "dd2">     Explore <span>  Plus  </span>   </a>
+            
+            </div>  
+                
+            <input id = "input1" type="search" name="searchkey" placeholder="Search for products, brands and more">   
+            
+            <li id = "dd" style = "list-style-type: none;">  
+                
+                <a id = "input2" href="#"> <b>Login</b> </a>
+
+                    <div id = "xx1">
+
+                        <div class = "c2">    <b id = "a2"> New Customer? </b> <a id = "a1" href="#"> Sign Up </a>    </div>
+
+                        <a class = "c1" href="#">    My Profile  </a>
+
+                        <a class = "c1" href="#">    Flipcart Plus Zone  </a>
+
+                        <a class = "c1" href="#">    Orders  </a>
+
+                        <a class = "c1" href="#">    Wishlist  </a>
+
+                        <a class = "c1" href="#">    Rewards  </a>
+
+                        <a class = "c1" href="#" style = "border-bottom:none;">   Gift Cards </a>
+
+                    </div>
+
+            </li>
+
+            <div>
+                
+                <a id = "input3" href="#"> Become a Seller </a>
+            
+            </div>
+
+            <li id = "d10">  
+                        
+                <a id = "d11" href="#"> More  </a>
+
+                    <div id = "d12">
+
+                        <a class = "d13" href="#"> Notification Preferences </a>
+
+                        <a class = "d13" href="#">  24x7 Customer Care  </a>
+
+                        <a class = "d13" href="#"> Advertise   </a>
+
+                        <a class = "d13" href="#" style = "border-bottom:none;">  Download App  </a>
+
+                    </div>
+
+            </li>
+        
+            <div>
+                
+                <a id = "d15" href="#"> Cart </a>
+            
+            </div>
+
+        </div>
+
+        <div id = "Heading12">
+
+            <div class = "flex-box-1">
+
+                <a href = "#" class = "flex-box-2"> <b>Electronics</b> </a>
+
+                <div id = "Doclist1">
+
+                    <div class = "listtype1">
+
+                        <ul style="position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black;"> <b>Mobiles</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mi </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Realme </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Samsung </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Infinix </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Oppo </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Apple </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Vivo </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Honor </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Asus </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Poco X2 </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> realme Narzo 10 </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Infinix Hot 9 </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> IQOO 3 </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> iPhone SE </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Motorola razr </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> realme Narzo 10A </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Motorola g8 power lite </a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class = "listtype1"  style = "left:249px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Mobile Accessories</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mobile Cases </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Headphones & Headsets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Power Banks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Screenguards </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Memory Cards </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Smart Headphones </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mobile Cables </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mobile Chargers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mobile holders </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Smart Wearable Tech</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Smart Watches </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Smart Glasses (VR) </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Smart Bands </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Health Care Appliances</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bp Monitors </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Weighing Scale </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:498px;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Laptops</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Gaming Laptops </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Desktop PCs</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Gaming & Accessories</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Computer Accessories</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> External Hard Disks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pendrives </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Laptop Skins & Decals </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Laptop Bags </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mouse </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Computer Peripherals</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Printers & Ink Cartridges </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Monitors </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Tablets</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Apple iPads </a></li>
+
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:747px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1"> Televisions </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Speakers</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Home Audio Speakers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Home Theatres </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> soundbars </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bluetooth Speakers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> DTH Set Top Box </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Smart Home Automation</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Google Nest </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Camera</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> DSLR & Mirrorless </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Compact & Bridge Cameras </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sports & Action </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Camera Accessories</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lens </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Tripods </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Network Components</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Routers </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "right:0;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-27px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Featured</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Google Assistant Store </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Laptops on Buyback Guarantee </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Flipkart SmartBuy </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Li-Polymer Power Banks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sony PS4 Pro & Slim </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Apple Products </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Microsoft Store </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lenovo Phab Series </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> JBL Speakers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Smartphones On Buyback Guarantee </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Philips </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dr. Morepen </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Complete Mobile Protection </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mobiles No Cost EMI </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Huawei Watch Gt 2e SMart Watch </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class = "flex-box-1">
+                
+                <a href = "#" class = "flex-box-2"> <b>TVs & Appliances</b> </a>
+
+                <div id = "Doclist1">
+
+                    <div class = "listtype1">
+
+                        <ul style="position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black;"> <b>Television</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>New Launches</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Smart & Ultra HD</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Top Brands</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mi </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Vu </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Thomson </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Samsung </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> iFFALCON by TCL </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Nokia </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> LG </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> realme </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Motorola </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Shop by Screen Size</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> 24 & below </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> 28 - 32 </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> 39-43 </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> 48-55 </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> 60 & abouve </a></li>
+
+
+
+                        </ul>
+
+                    </div>
+
+                    <div class = "listtype1"  style = "left:249px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Washing Machine</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Fully Automatic Front Load </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Semi Automatic Top Load </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Fully Automatic Top Load </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Air Conditioners</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Inverter AC </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Split ACs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Window ACs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Shop By Brand</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> LG </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Hitachi </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Carrier </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Refrigerators</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Single Door </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Double Door </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Triple Door </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Side by Side </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Convertible </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:498px;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Kitchen Appliances</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Microwave Ovens </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Oven Toaster Grills (OTG) </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Juicer/Mixer/Grinder </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Electric Kettle </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Induction Cooktops </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Chimneys </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Hand Blenders </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sandwich Makers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pop Up Toasters </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Electric Cookers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Wet Grinders </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Food Processors </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Coffee Makers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dishwashers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Healthy Living Appliances</b> </a></li>
+
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:747px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Small Home Appliances</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Irons </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Water Purifiers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Fans </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Air Coolers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Inverters </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Vacuum Cleaners </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sewing Machines </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Voltage Stabilizers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Waater Geysers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Immersion Rods </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Top Brands</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Livpure </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Philips </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bajaj </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> IFB </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Eureka Forbes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kaff </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "right:0;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-27px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Buying Guides</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Televisions </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Washing Machines </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Refrigerators </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Air Conditioners </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Water Purifiers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Air Purifiers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Chimneys </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Water Geysers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>New Launches</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Coocaa Smart TVs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Nokia (55) 4K Android TV </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mi (32) 4A Pro Android TV </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> MarQ (43) FHD Smart TV </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> LG Refrigerators </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Thomson (40) 4K Smart TV </a></li>
+                            
+                            <li class = "list12"><a href="#" class = "list1"> Whirlpool Refrigerators </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kodak (22)|(32) LED TVs </a></li>
+
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class = "flex-box-1">
+                    
+                <a href = "#" class = "flex-box-2"> <b>Men</b> </a>
+
+                <div id = "Doclist1"  style = "height:570px;">
+
+                    <div class = "listtype1">
+
+                        <ul style="position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black;"> <b>Footwear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sports Shoes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Casual Shoes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Formal Shoes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sandals & Floaters </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Flip Flops </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Loafers  </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Boots </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Running Shoes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sneakers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Men's Grooming</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Deodorants </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Perfumes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Beard Care & Grooming </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shaving & Aftershave </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sexual Wellness </a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class = "listtype1"  style = "left:249px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Clothing</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Top Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> T-Shirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Formal Shirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Casual Shirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Bottom Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Jeans </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Casual Trousers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Formal Trousers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Track Pants </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shorts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Cargos </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Three Fourths </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Suits, Blazers & Waistcoats</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Ties, Socks, Caps & More</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Febrics</b> </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:498px;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Winter Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sweatshirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Jackets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sweaters </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Tracksuits </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Ethnic wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kurta </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ethnic Sets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sherwanis </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ethnic Pyjama </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dhoti </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lungi </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Innerwear & Loungewear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Briefs & Trunks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Vests </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Boxers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pyjamas and Lounge Pants </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Thermals </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Night Suits </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Raincoats & Windcheaters</b> </a></li>
+
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:747px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Watches</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Fastrack </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Casino </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Titan </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Fossil </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sonata </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Accessories</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Backpacks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Wallets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Belts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sunglasses </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Luggage & Travel </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Frames </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Jewellery </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Sports & Fitness Store</b> </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "right:0;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-27px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Smrt Watches</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Smart Bands</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Personal Care Appliances</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Trimmers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shavers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Grooming Kits </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Featured</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Watches Store </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Footwear Club </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bags & Wallets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> T-Shirt Store </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Adidas </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Beardo </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Reebok </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Skechers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Nike </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+            </div>    
+
+            <div class = "flex-box-1">
+                        
+                <a href = "#" class = "flex-box-2"> <b>Women</b> </a>
+
+                <div id = "Doclist1" style = "height:600px;">
+
+                    <div class = "listtype1">
+
+                        <ul style="position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black;"> <b>Clothing</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Women Western & Maternity Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Topwear </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dresses </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Jeans </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shorts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Jeggings & Tights </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Trousers & Capris </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Lingerie & Sleepwear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bras </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> panties </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lingerie Sets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Night Dresses & Nighties </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shapewear</a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Camisoles & Slips </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Swim & Beachwear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Party Dresses</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Sports Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Winter Wear</b> </a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class = "listtype1"  style = "left:249px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Ethnic Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sarees </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kurtas & Kurtis </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dress Material </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lehenga Choli </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Blouse </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kurta Sets & Salwar Suits </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Gowns </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dupattas </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Ethnic Bottoms</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Leggings & Churidars </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Palazzos </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shararas </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Salwars & Patiala </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dhoti Pants </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ethnic Trousers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Saree Shapewear & Petticoats </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:498px;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Footwear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Sandals</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Flats </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Heels </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Wedges </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Shoes</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sports Shoes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Casual Shoes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Boots </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Ballerinas</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Slippers & FLip- Flop's</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Watches</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Smart Watches</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Personal Care Appliances</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Hair Straightners </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Hair Dryers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Epilators </a></li>
+
+
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:747px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Beauty & Grooming</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Make Up </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Skin Care </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Hair Care </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bath & Spa </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Deodorants & Perfumes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Jewellery</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Artificial Jewellery </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Silver Jewellery </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Precious Jewellery </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Coins and Bars </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Accessories</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Handbags </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shoulder Bags </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Totes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Sling Bags</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Clutches </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Wallets & Belts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Luggage & Travel </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sunglasses </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Frames </a></li>
+
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "right:0;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-27px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Featured</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Forever 21 </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Accessories </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> W </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pantaloons </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Chemistry </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lakme </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Nivea </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Catwalk </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Titan-Raga </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Fastrack </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Divastri </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Rare Roots </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Anmi </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Coins & Bars </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Crocs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Trending today!</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ruffles & Frills </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pastel Kurtas & Sarees </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Designer Net Sarees </a></li>
+
+                        
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+            </div>    
+
+            <div class = "flex-box-1">
+
+                <a href = "#" class = "flex-box-2"> <b>Baby & Kids</b> </a>
+
+                <div id = "Doclist1" style = "height:570px;">
+
+                    <div class = "listtype1">
+
+                        <ul style="position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black;"> <b>Kids Clothing</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Boy's Clothing</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> T-Shirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ethnic Wear </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shorts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Innerwear </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Girl's Clothing</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dresses & Skirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ethnic Wear </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> T-Shirts & Tops </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Innerwear </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Baby Boy's Clothing</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Combos Sets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> T-shirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Innerwear </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Baby Girl's Clothing</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Combos Sets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dresses & Gowns </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Innerwear </a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class = "listtype1"  style = "left:249px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Kid's Footwear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Boy's Footwear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sandals </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sport Shoes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Girl's Footwear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Flat's Bellies </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sport Shoes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Infant Footwear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Character Shoes</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kid's Watches </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> Kid's Sunglasses </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Kid's Winter Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Boy's Winter Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Boy's Sweatshirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Boy's Jacket </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Girl's Winter Wear</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Girl's Sweatshirts </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Girl's Jackets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Infant Winter Wear </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Thermals </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:498px;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Toys</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Remote Control Toys </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Educational Toys </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Soft Toys </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Cars & Die-cast Vehicles </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Outdoor Toys </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Action Figures </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Board Games </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Musical Toys </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dolls & Doll Houses </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Puzzles </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> S.T.E.M Toys </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Helicopter & Drones </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Toy Guns </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Party Supplies </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>School Supplies </b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> School Bags </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> School Combo Sets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lunch Box </a></li>
+
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:747px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Baby Care</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Diapers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Wipes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Diapering & Potty Training </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Bath, Hair & Skin Care </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Grooming </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Bathing Accessories </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Girft Sets & Combo </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Oral Care </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Nursing & Breast Feeding </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Food </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Feeding Bottle & Accessories </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Feeding Utensils & Accessories </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Bedding </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Gear </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Medical & Health Care </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" Baby Proofing & Safety </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Baby Cleaners & Detergents </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "right:0;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-27px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Featured brands</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Miss & Chief </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Barbie </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Disney </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> United Colors Of Benetton </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> The Children's Place </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> US Polo </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Flying Machine </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Crocs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Puma </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Funskool </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lego </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Luvlap </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mamy Poko </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mee Mee </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class = "flex-box-1">
+                                
+                <a href = "#" class = "flex-box-2"> <b>Home & Furniture</b> </a>
+
+                <div id = "Doclist1">
+
+                    <div class = "listtype1">
+
+                        <ul style="position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black;"> <b>Kitchen, Cookware & Serveware</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pans </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Tawas </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pressure Cookers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kitchen Tools </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Gas Stoves </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Tableware & Dinnerware</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Coffee Mugs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dinner Sets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Barware </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Kitchen Storage</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Water Bottles </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lunch Boxes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Flasks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Casseroles </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kitchen Containers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Cleaning Supplies</b> </a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class = "listtype1"  style = "left:249px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Furniture Top Offers</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Bed Room Furniture</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Beds </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mattresses </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Wardrobes </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Living Room Furniture</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sofa </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sofa Beds </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> TV Units </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dining Tables & Chairs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Coffee Tables </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shoe Racks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Office & Study Furniture</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kids Room Furniture </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> <b>DIY Furniture</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bean Bags </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Collapsible Wardrobes </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:498px;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Furnishing</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bedsheets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Curtains </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Cushions & Pillows </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Blankets </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bath Towels </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Kitchen & Table Linen </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Floor Coverings </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Smart Home Automation</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Smart Security System </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Smart Door Locks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Home Improvement</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Tools & Measuring Equipments </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Home Utilities & Organizers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lawn & Gardening </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bathroom & Kitchen Fittings </a></li>
+
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:747px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Home Decor</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Paintings </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Clocks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Wall Shelves </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Stickers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Showpieces & Figurines </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Home Lighting</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bulbs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Wall Lamp </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Table Lamp </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ceiling Lamp </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Emergency Lights </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Festive Decor & Gifts</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Pet Supplies</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dogs </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Cats </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Fish & Aquatics </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "right:0;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-27px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Durability Certifies Furniture</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Featured</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Christmas Store</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mugs Store </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Gardening Store </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Stainless Steel Store </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Mitron </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Bombay Dyeing </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> @home </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Home Town </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ajanta </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Spaces By Welspun </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Prestige </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Perfect Home Store</b> </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class = "flex-box-1">
+                                    
+                <a href = "#" class = "flex-box-2"> <b>Sports, Books & More</b> </a>
+
+                <div id = "Doclist1">
+
+                    <div class = "listtype1">
+
+                        <ul style="position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black;"> <b>Sports</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Cricket </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Badminton </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Cycling </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Football </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Skating </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Camping & Hiking </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Swimming </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Exercise Fitness</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Cardio Equipement </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Home Gyms </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Support </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Dumbbells </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ab Exercisers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Shakers & Sippers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Yoga Mat </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Gym Gloves </a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class = "listtype1"  style = "left:249px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Food Essentials</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Nuts & Dry Fruits </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Tea, Coffee and Beverages </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Chocolates </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Snacks Corner </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Gifting Combos </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Sweets Store </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Jams, Spreadds and Honey </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Breakfast Items </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Health & Nutrition</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> All Supplements </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Protein Supplements </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Vitamin Supplements </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Health Drinks </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Ayurvedic Supplements </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:498px;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Books</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Entrance Exams </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Academics </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Literature & Fiction </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Non Fiction </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Young Readers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Self-Help </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> E-Learning </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Preorders </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Indian Languages </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Stationery</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pens </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Diaries </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Card Holders </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Desk Organizers </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Calculators </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Key Chains </a></li>
+
+
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "left:747px;background-color: rgb(220, 220, 220,.3);">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-26px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Auto Accessories</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Helmets & Riding Gears </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Car Audio/Video </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Car Mobile Accessories </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Car & Bike Care </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Vehicle Lubricants </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Industrial & Scientific Tools</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Industrial Measurement Devices </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Industrial Testing Devices </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Lab & Scientific Products </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Packaging & Shipping Products </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Safety Products </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Medical Supplies</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Pregnancy and Fertility Kits </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Hot Water Bag </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "listtype1"  style = "right:0;">
+
+                        <ul style="display: block;position: absolute;top:-17px;left:-27px;list-style-type: none;">
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Music</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Musical Instruments </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Music </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Movies & TV Shows </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1" style = "color:black"> <b>Gaming</b> </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Gaming Consoles </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Gaming Accessories </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> PS4 Games </a></li>
+
+                            <li class = "list12"><a href="#" class = "list1"> Smart Glasses (VR) </a></li>
+                        
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class = "flex-box-1">
+                                    
+                <a href = "#" class = "flex-box-2"> <b>Flights</b> </a>
+
+            </div>
+
+            <div class = "flex-box-1">
+                                            
+                <a href = "#" class = "flex-box-2"> <b>Offer Zone</b> </a>
+
+            </div>
+
+        </div>
+
+        <div id = "Heading13" class = "HHH">
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 109px;">
+
+                <p style = "font-family: sans-serif;font-size:20px;position: absolute;left: 20px;"> Filters </p>
+                
+                <a href = "#" style = "font-family: sans-serif;position: absolute;top:26px;right: 20px;font-size: 12px;text-decoration: none;color:blue;"> CLEAR ALL </a>
+                
+                <a id = "btn1" class = "samesame" href = "#"> <p id = "btn11" class = "samesame"> &#9587 </p> Mirrorless </a>
+
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 140px;padding-left:10px;">
+
+                <p style = "position: absolute;top:110px;left: 20px;font-family: sans-serif;font-size: 13px;"> <b>CATEGORIES</b> </p>
+                
+                <a style = "position: absolute;top:150px;left: 20px;font-family: sans-serif;font-size: 14px;color: gray;"> &#10094 Cameras & Accessories </a>
+
+                <a style = "position: absolute;top:180px;left: 20px;font-family: sans-serif;font-size: 14px;color: gray;"> &#10094 Cameras </a>
+                
+                <a style = "position: absolute;top:210px;left: 32px;font-family: sans-serif;font-size: 14px;"> <b>DSLR & Mirrorless</b> </a>
+
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 100px;padding-left:10px;">
+                
+                <p><b>Price</b></p>
+
+                <input type = "range" name = "points" min="0" max="10">
+
+                <input type = "number"> to <input type = "number">
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 35px;padding-left:10px;">
+                
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 35px;padding-left:10px;">
+                <p><b>Brand</b></p>
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 140px;padding-left:10px;">
+                <p><b>Customer Ratings</b></p>
+
+                <input type = "checkbox"> 4 &#9733 & above <br>
+
+                <input type = "checkbox"> 3 &#9733 & above <br>
+
+                <input type = "checkbox"> 2 &#9733 & above <br>
+
+                <input type = "checkbox"> 1 &#9733 & above 
+
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 100px;padding-left:10px;">
+                
+                <p><b>Offers</b></p>
+
+                <input type = "checkbox"> No Cost EMI <br>
+
+                <input type = "checkbox"> Special Price
+
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 35px;padding-left:10px;">
+                
+                <p><b>DISCOUNT</b></p>
+
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 35px;padding-left:10px;">
+                <p><b>TYPE</b></p>
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 35px;padding-left:10px;">
+                <p><b>SENSOR TYPE</b></p>
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 35px;padding-left:10px;">
+                <p><b>GST INVOICE AVAILABLE</b></p>
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 35px;padding-left:10px;">
+                <p><b>COLOR</b></p>
+            </div>
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);height: 35px;padding-left:10px;">
+                <p><b>AVAILABILITY</b></p>
+            </div>
+
+        </div>
+
+        <div id = "Heading114" class = "HHH">
+
+            <div style = "border-bottom: 1px solid rgb(230, 230, 230);width:100%;height: 255px;position: absolute;">
+
+                <div style="position: absolute;top:15px;left: 20px;"> 
+                    
+                    <a href="#" class="line1" id = "lin1"> Home </a> <span class="line2">&#10095</span> <a href="#" class="line1" id = "lin1"> Cameras & Accessories </a> <span class="line2">&#10095</span> <a href="#" class="line1" id = "lin1"> Cameras </a> <span class="line2">&#10095</span> <a href="#" class="line1" id = "lin1"> DSLR & Mirro... </a>
+
+                    <p style = "font-size: 11.1px;font-family: sans-serif;line-height: 18px;color:gray;padding-right:44px;"> 
+                        DSLR cameras enable you to shoot with different types of lenses. They offer a bigger sensor and can take multiple shots per second. These devices have a quick focus, and are ideal for professional action and sports photography. Unlike point and shoots, these gadgets produce less noise, allowing you to work in very dim environments. Having a big sensor helps you to get better quality images. DSLR cameras come with a lot more buttons and controls, which help to use the device conveniently. Both professionals and beginners can use these digital cameras easily. Mirrorless camcorders are also available online. You can choose from different types of sensors, such as CCD, MOS, BSI, CMOS, and much more, as per your requirement. These gadgets use AA rechargeable batteries and lithium batteries which can last for a long period. You can find a huge variety of camcorders online in different colours and price ranges. Pick from colours like red, black, silver, blue, and pink, among others. Digital camcorders allow you to capture moving objects without any hassle. It is advised to check the product label to get more information on the effective pixels, storage and power features, and much more. Explore the best digital cameras from brands, like Canon, Pentax, Sony, Panasonic, Nikon, etc. <br>
+
+Looking for a DSLR camera online? From <a class = "w321" href = "#">Canon</a>, <a class = "w321" href = "#">Nikon</a>, <a class = "w321" href = "#">Sony</a>, <a class = "w321" href = "#">FujiFilm</a> to Pentax, Flipkart is home to the finest when it comes to cameras and photography equipment. 
+                    </p>
+
+                    <p style = "font-size: 12px;color:grey; font-family: sans-serif;position: absolute;top:176px">
+
+                        <span style = "font-size: 15px; color:black;margin-right:4px;font-weight:600;"> DSLR & Mirrorless </span> (Showing 1 – 24 products of 85 products)
+
+                    </p>
+
+                    <ul style = "position: absolute;left:-40px;top:200px;">
+
+                        <li class = "page"> <a style = "margin-right: 20px;font-family: sans-serif;color:black;text-decoration: none;font-size: 15px;"> <b>Sort By</b> </a> </li>
+
+                        <li class = "page"> <a class = "page1" href = "#"> Popularity </a> </li>
+
+                        <li class = "page"> <a class = "page1" href = "#"> Price -- Low to High </a> </li>
+
+                        <li class = "page"> <a class = "page1" href = "#"> Price -- High to Low </a> </li>
+
+                        <li class = "page"> <a class = "page1" href = "#"> Newest First </a> </li>
+
+                    </ul>
+                
+                </div>
+                
+            </div>
+
+            <div style = "font-family: sans-serif;display: flex;border-bottom: 1px solid rgb(230, 230, 230);height: 350px;position: absolute;top: 255px;width:100%;">
+            
+                <div style = "width:21%;height:100%;display: flex;">
+
+                    <div style = "width:200px;height:170px;position: absolute;left:27.5px;top:35px;"> <img src = "camera.webp" width = "100%" height = "100%"> </div>
+
+                </div>
+
+                <div style = "width:46%;height:100%;">
+                    <a href = "#">
+                        <div style = "width:46%;position:absolute;">
+
+                            <p style = "color:black;text-decoration: none;position: absolute;top:5px;"><b>Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens</b></p><br>
+
+                            <span><button type = "button" style = "position: absolute;top:45px;background-color:rgb(0, 139, 0); color:white;border-radius:3px;border:none;font-size: 12px;">4.5 <b>&#9733</b></button></span>
+
+                            <span> <p style = "position: absolute;top:33px;font-weight: bold;left:50px;font-size: 14px;color:rgb(142, 142, 142);">1,268 Ratings & 130 Reviews</p></span>
+
+                            <div style = "width: 100%;position: absolute;right: 23px;"> <ul style = "color: rgb(196, 196, 196);position: absolute;top:45px">
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">4K and vertical movies, Live YouTube streaming, Auto video transcoding, Use as a <br><br><br> webcam, Great in low light, 10fps continuous shooting, 3.5mm external microphone<br><br><br> input, Full HD movie at 60p, pair the camera with your smartphone via Wi-Fi or<br><br><br> Bluetooth to perform remote shooting, a handy trick for taking group photos.</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Effective Pixels: 24.1 MP</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Sensor Type: CMOS</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">WiFi Available</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">MP4</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">2 Year Warranty (1 year standard warranty + 1 year additional warranty from the<br><br><br>date of purchase made by the customer.)</p></li>
+
+                            </ul> </div>
+                            
+                        </div>
+                    </a>
+                </div>
+
+                <div style = "width:32.6%;height:100%;">
+                    <a href ="#">
+
+                        <h1 style = "color:black;word-spacing:-5px;font-size: 26px;position: absolute;">&#8377 58,990</h1> <p style = "position: absolute;right:200px">assured</p>
+
+                        <p style = "position: absolute;top:40px;color:grey;text-decoration: line-through;word-spacing:-5px;font-size: 16px;">&#8377 66,995</p> <p style = "position: absolute;top:45px;right:288px;font-size: 13px;font-weight: bold;color:rgb(0, 139, 0)"> 11 % off</p>
+
+                        <p style = "position: absolute;top:69px;color:black;font-size: 12px;">Free Delivery</p> 
+                        
+                        <p style = "position: absolute;top:88px;font-size: 14px;font-weight: bold;color:rgb(0, 139, 0)">Bank Offer</p>
+                    </a>
+                </div>
+
+                
+
+            </div>
+
+            <div style = "font-family: sans-serif;display: flex;border-bottom: 1px solid rgb(230, 230, 230);height: 350px;position: absolute;top: 605px;width:100%;">
+            
+                <div style = "width:21%;height:100%;display: flex;">
+
+                    <div style = "width:200px;height:170px;position: absolute;left:27.5px;top:35px;"> <img src = "camera.webp" width = "100%" height = "100%"> </div>
+
+                </div>
+
+                <div style = "width:46%;height:100%;">
+                    <a href = "#">
+                        <div style = "width:46%;position:absolute;">
+
+                            <p style = "color:black;text-decoration: none;position: absolute;top:5px;"><b>Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens</b></p><br>
+
+                            <span><button type = "button" style = "position: absolute;top:45px;background-color:rgb(0, 139, 0); color:white;border-radius:3px;border:none;font-size: 12px;">4.5 <b>&#9733</b></button></span>
+
+                            <span> <p style = "position: absolute;top:33px;font-weight: bold;left:50px;font-size: 14px;color:rgb(142, 142, 142);">1,268 Ratings & 130 Reviews</p></span>
+
+                            <div style = "width: 100%;position: absolute;right: 23px;"> <ul style = "color: rgb(196, 196, 196);position: absolute;top:45px">
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">4K and vertical movies, Live YouTube streaming, Auto video transcoding, Use as a <br><br><br> webcam, Great in low light, 10fps continuous shooting, 3.5mm external microphone<br><br><br> input, Full HD movie at 60p, pair the camera with your smartphone via Wi-Fi or<br><br><br> Bluetooth to perform remote shooting, a handy trick for taking group photos.</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Effective Pixels: 24.1 MP</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Sensor Type: CMOS</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">WiFi Available</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">MP4</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">2 Year Warranty (1 year standard warranty + 1 year additional warranty from the<br><br><br>date of purchase made by the customer.)</p></li>
+
+                            </ul> </div>
+                            
+                        </div>
+                    </a>
+                </div>
+
+                <div style = "width:32.6%;height:100%;">
+                    <a href ="#">
+
+                        <h1 style = "color:black;word-spacing:-5px;font-size: 26px;position: absolute;">&#8377 58,990</h1> <p style = "position: absolute;right:200px">assured</p>
+
+                        <p style = "position: absolute;top:40px;color:grey;text-decoration: line-through;word-spacing:-5px;font-size: 16px;">&#8377 66,995</p> <p style = "position: absolute;top:45px;right:288px;font-size: 13px;font-weight: bold;color:rgb(0, 139, 0)"> 11 % off</p>
+
+                        <p style = "position: absolute;top:69px;color:black;font-size: 12px;">Free Delivery</p> 
+                        
+                        <p style = "position: absolute;top:88px;font-size: 14px;font-weight: bold;color:rgb(0, 139, 0)">Bank Offer</p>
+                    </a>
+                </div>
+
+                
+
+            </div>
+            
+            <div style = "font-family: sans-serif;display: flex;border-bottom: 1px solid rgb(230, 230, 230);height: 350px;position: absolute;top: 39.6%;width:100%;">
+            
+                <div style = "width:21%;height:100%;display: flex;">
+
+                    <div style = "width:200px;height:170px;position: absolute;left:27.5px;top:35px;"> <img src = "camera.webp" width = "100%" height = "100%"> </div>
+
+                </div>
+
+                <div style = "width:46%;height:100%;">
+                    <a href = "#">
+                        <div style = "width:46%;position:absolute;">
+
+                            <p style = "color:black;text-decoration: none;position: absolute;top:5px;"><b>Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens</b></p><br>
+
+                            <span><button type = "button" style = "position: absolute;top:45px;background-color:rgb(0, 139, 0); color:white;border-radius:3px;border:none;font-size: 12px;">4.5 <b>&#9733</b></button></span>
+
+                            <span> <p style = "position: absolute;top:33px;font-weight: bold;left:50px;font-size: 14px;color:rgb(142, 142, 142);">1,268 Ratings & 130 Reviews</p></span>
+
+                            <div style = "width: 100%;position: absolute;right: 23px;"> <ul style = "color: rgb(196, 196, 196);position: absolute;top:45px">
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">4K and vertical movies, Live YouTube streaming, Auto video transcoding, Use as a <br><br><br> webcam, Great in low light, 10fps continuous shooting, 3.5mm external microphone<br><br><br> input, Full HD movie at 60p, pair the camera with your smartphone via Wi-Fi or<br><br><br> Bluetooth to perform remote shooting, a handy trick for taking group photos.</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Effective Pixels: 24.1 MP</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Sensor Type: CMOS</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">WiFi Available</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">MP4</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">2 Year Warranty (1 year standard warranty + 1 year additional warranty from the<br><br><br>date of purchase made by the customer.)</p></li>
+
+                            </ul> </div>
+                            
+                        </div>
+                    </a>
+                </div>
+
+                <div style = "width:32.6%;height:100%;">
+                    <a href ="#">
+
+                        <h1 style = "color:black;word-spacing:-5px;font-size: 26px;position: absolute;">&#8377 58,990</h1> <p style = "position: absolute;right:200px">assured</p>
+
+                        <p style = "position: absolute;top:40px;color:grey;text-decoration: line-through;word-spacing:-5px;font-size: 16px;">&#8377 66,995</p> <p style = "position: absolute;top:45px;right:288px;font-size: 13px;font-weight: bold;color:rgb(0, 139, 0)"> 11 % off</p>
+
+                        <p style = "position: absolute;top:69px;color:black;font-size: 12px;">Free Delivery</p> 
+                        
+                        <p style = "position: absolute;top:88px;font-size: 14px;font-weight: bold;color:rgb(0, 139, 0)">Bank Offer</p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div style = "font-family: sans-serif;display: flex;border-bottom: 1px solid rgb(230, 230, 230);height: 350px;position: absolute;top: 54.2%;width:100%;">
+            
+                <div style = "width:21%;height:100%;display: flex;">
+
+                    <div style = "width:200px;height:170px;position: absolute;left:27.5px;top:35px;"> <img src = "camera.webp" width = "100%" height = "100%"> </div>
+
+                </div>
+
+                <div style = "width:46%;height:100%;">
+                    <a href = "#">
+                        <div style = "width:46%;position:absolute;">
+
+                            <p style = "color:black;text-decoration: none;position: absolute;top:5px;"><b>Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens</b></p><br>
+
+                            <span><button type = "button" style = "position: absolute;top:45px;background-color:rgb(0, 139, 0); color:white;border-radius:3px;border:none;font-size: 12px;">4.5 <b>&#9733</b></button></span>
+
+                            <span> <p style = "position: absolute;top:33px;font-weight: bold;left:50px;font-size: 14px;color:rgb(142, 142, 142);">1,268 Ratings & 130 Reviews</p></span>
+
+                            <div style = "width: 100%;position: absolute;right: 23px;"> <ul style = "color: rgb(196, 196, 196);position: absolute;top:45px">
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">4K and vertical movies, Live YouTube streaming, Auto video transcoding, Use as a <br><br><br> webcam, Great in low light, 10fps continuous shooting, 3.5mm external microphone<br><br><br> input, Full HD movie at 60p, pair the camera with your smartphone via Wi-Fi or<br><br><br> Bluetooth to perform remote shooting, a handy trick for taking group photos.</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Effective Pixels: 24.1 MP</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Sensor Type: CMOS</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">WiFi Available</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">MP4</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">2 Year Warranty (1 year standard warranty + 1 year additional warranty from the<br><br><br>date of purchase made by the customer.)</p></li>
+
+                            </ul> </div>
+                            
+                        </div>
+                    </a>
+                </div>
+
+                <div style = "width:32.6%;height:100%;">
+                    <a href ="#">
+
+                        <h1 style = "color:black;word-spacing:-5px;font-size: 26px;position: absolute;">&#8377 58,990</h1> <p style = "position: absolute;right:200px">assured</p>
+
+                        <p style = "position: absolute;top:40px;color:grey;text-decoration: line-through;word-spacing:-5px;font-size: 16px;">&#8377 66,995</p> <p style = "position: absolute;top:45px;right:288px;font-size: 13px;font-weight: bold;color:rgb(0, 139, 0)"> 11 % off</p>
+
+                        <p style = "position: absolute;top:69px;color:black;font-size: 12px;">Free Delivery</p> 
+                        
+                        <p style = "position: absolute;top:88px;font-size: 14px;font-weight: bold;color:rgb(0, 139, 0)">Bank Offer</p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div style = "font-family: sans-serif;display: flex;border-bottom: 1px solid rgb(230, 230, 230);height: 350px;position: absolute;top: 68.8%;width:100%;">
+            
+                <div style = "width:21%;height:100%;display: flex;">
+
+                    <div style = "width:200px;height:170px;position: absolute;left:27.5px;top:35px;"> <img src = "camera.webp" width = "100%" height = "100%"> </div>
+
+                </div>
+
+                <div style = "width:46%;height:100%;">
+                    <a href = "#">
+                        <div style = "width:46%;position:absolute;">
+
+                            <p style = "color:black;text-decoration: none;position: absolute;top:5px;"><b>Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens</b></p><br>
+
+                            <span><button type = "button" style = "position: absolute;top:45px;background-color:rgb(0, 139, 0); color:white;border-radius:3px;border:none;font-size: 12px;">4.5 <b>&#9733</b></button></span>
+
+                            <span> <p style = "position: absolute;top:33px;font-weight: bold;left:50px;font-size: 14px;color:rgb(142, 142, 142);">1,268 Ratings & 130 Reviews</p></span>
+
+                            <div style = "width: 100%;position: absolute;right: 23px;"> <ul style = "color: rgb(196, 196, 196);position: absolute;top:45px">
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">4K and vertical movies, Live YouTube streaming, Auto video transcoding, Use as a <br><br><br> webcam, Great in low light, 10fps continuous shooting, 3.5mm external microphone<br><br><br> input, Full HD movie at 60p, pair the camera with your smartphone via Wi-Fi or<br><br><br> Bluetooth to perform remote shooting, a handy trick for taking group photos.</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Effective Pixels: 24.1 MP</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Sensor Type: CMOS</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">WiFi Available</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">MP4</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">2 Year Warranty (1 year standard warranty + 1 year additional warranty from the<br><br><br>date of purchase made by the customer.)</p></li>
+
+                            </ul> </div>
+                            
+                        </div>
+                    </a>
+                </div>
+
+                <div style = "width:32.6%;height:100%;">
+                    <a href ="#">
+
+                        <h1 style = "color:black;word-spacing:-5px;font-size: 26px;position: absolute;">&#8377 58,990</h1> <p style = "position: absolute;right:200px">assured</p>
+
+                        <p style = "position: absolute;top:40px;color:grey;text-decoration: line-through;word-spacing:-5px;font-size: 16px;">&#8377 66,995</p> <p style = "position: absolute;top:45px;right:288px;font-size: 13px;font-weight: bold;color:rgb(0, 139, 0)"> 11 % off</p>
+
+                        <p style = "position: absolute;top:69px;color:black;font-size: 12px;">Free Delivery</p> 
+                        
+                        <p style = "position: absolute;top:88px;font-size: 14px;font-weight: bold;color:rgb(0, 139, 0)">Bank Offer</p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div style = "font-family: sans-serif;display: flex;border-bottom: 1px solid rgb(230, 230, 230);height: 350px;position: absolute;top: 83.4%;width:100%;">
+            
+                <div style = "width:21%;height:100%;display: flex;">
+
+                    <div style = "width:200px;height:170px;position: absolute;left:27.5px;top:35px;"> <img src = "camera.webp" width = "100%" height = "100%"> </div>
+
+                </div>
+
+                <div style = "width:46%;height:100%;">
+                    <a href = "#">
+                        <div style = "width:46%;position:absolute;">
+
+                            <p style = "color:black;text-decoration: none;position: absolute;top:5px;"><b>Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens</b></p><br>
+
+                            <span><button type = "button" style = "position: absolute;top:45px;background-color:rgb(0, 139, 0); color:white;border-radius:3px;border:none;font-size: 12px;">4.5 <b>&#9733</b></button></span>
+
+                            <span> <p style = "position: absolute;top:33px;font-weight: bold;left:50px;font-size: 14px;color:rgb(142, 142, 142);">1,268 Ratings & 130 Reviews</p></span>
+
+                            <div style = "width: 100%;position: absolute;right: 23px;"> <ul style = "color: rgb(196, 196, 196);position: absolute;top:45px">
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">4K and vertical movies, Live YouTube streaming, Auto video transcoding, Use as a <br><br><br> webcam, Great in low light, 10fps continuous shooting, 3.5mm external microphone<br><br><br> input, Full HD movie at 60p, pair the camera with your smartphone via Wi-Fi or<br><br><br> Bluetooth to perform remote shooting, a handy trick for taking group photos.</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Effective Pixels: 24.1 MP</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">Sensor Type: CMOS</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">WiFi Available</p></li>
+                                
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">MP4</p></li>
+
+                                <li class = "size1"><p style = "color:black;font-size: 14px;">2 Year Warranty (1 year standard warranty + 1 year additional warranty from the<br><br><br>date of purchase made by the customer.)</p></li>
+
+                            </ul> </div>
+                            
+                        </div>
+                    </a>
+                </div>
+
+                <div style = "width:32.6%;height:100%;">
+                    <a href ="#">
+
+                        <h1 style = "color:black;word-spacing:-5px;font-size: 26px;position: absolute;">&#8377 58,990</h1> <p style = "position: absolute;right:200px">assured</p>
+
+                        <p style = "position: absolute;top:40px;color:grey;text-decoration: line-through;word-spacing:-5px;font-size: 16px;">&#8377 66,995</p> <p style = "position: absolute;top:45px;right:288px;font-size: 13px;font-weight: bold;color:rgb(0, 139, 0)"> 11 % off</p>
+
+                        <p style = "position: absolute;top:69px;color:black;font-size: 12px;">Free Delivery</p> 
+                        
+                        <p style = "position: absolute;top:88px;font-size: 14px;font-weight: bold;color:rgb(0, 139, 0)">Bank Offer</p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div style = "font-family: sans-serif;display: flex;height: 53px;position: absolute;top: 97.76%;width:100%;">
+            
+                <div class = "inline2" id = "page2"> <p>Page 1 of 4</p> </div>
+
+                <div class = "inline2" id = "page21">
+
+                    
+
+                        <div class = "list222"><a class = "list22" href="#">1</a></div> 
+                         <div class = "list222"> <a class = "list22" href="#">2</a> </div> 
+                         <div class = "list222"> <a class = "list22" href="#">3</a> </div>
+                        <div class = "list222"> <a class = "list22" href="#">4</a> </div> 
+                         <div class = "list222"> <a class = "list22" href="#">NEXT</a> </div> 
+
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <div id = "Heading15" class = "HHH">
+
+            <p style = "font-family: sans-serif;font-weight: bold;padding-left:15px;position: absolute;top:4px">Did you find what you were looking for?</p>
+            
+            <div style = "position: absolute;left:345px;"> <Button style = "padding:8px 28px;font-weight: bold;position: absolute;top:15px;background-color: white;border:1px solid rgb(215, 215, 215);">Yes</Button>    <button style = "padding:8px 28px;font-weight: bold;position: absolute;top:15px;left:88px;background-color: white;border:1px solid rgb(215, 215, 215);">No</button> </div>
+
+        </div>
+
+        <div id = "Heading16" class = "HHH">
+
+            <div style = "position: absolute;top:30px;left: 24px;line-height: 16px;display: flexbox;"> 
+                
+                <a class = "color1" href="#">Nikon DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">FUJIFILM DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">Sony DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">NIKON DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">Canon DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">Pentax DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">Panasonic DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">DSLR DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">SONY DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">Cameras</a> ,
+                <a class = "color1" href="#">Fujifilm DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">Olympus DSLR & Mirrorless</a> ,
+                <a class = "color1" href="#">Mirrorless DSLR & Mirrorless</a> 
+            
+            </div> <br>
+
+            <div style = "position: absolute;top:120px;left: 24px;line-height: 17px;display: flexbox;">
+    
+    <p style = "font-size: 16px;position: absolute;top:-62px;display: flexbox;"><b> Buy DSLR Cameras Online </b></p> <br>
+
+
+Upgrade to a new DSLR model to take the next step in your professional career or explore your creative side by purchasing a DSLR camera. There are plenty of DSLR and mirrorless options for you to explore. Immortalise all your precious memories in a photograph by getting yourself one of these cameras. From vast landscapes to portraits, these cameras are capable of capturing detailed photographs of anything. Detach the lens of these cameras with minimal effort and use other lenses when required. Browse through cameras with sensors like BSI CMOS, CMOS, MOS, and CCD. Find DSLR cameras with both automatic and manual shooting modes giving you a good learning experience. Check out the Canon EOS 3000D, which comes with a 15-55 mm lens and a CMOS sensor. The Nikon D780 has a modish design and is compatible with various lenses like AF NIKKOR, AI-P NIKKOR, etc. You can look into the Sony Alpha ILCE-7RM4, a 62.5 MP camera which has a BIONZ X image processing engine with Wi-Fi support and face detection. You can compare models offered by other brands like Panasonic, Fujifilm, etc., before zeroing in on a particular camera. <br><br><br>
+ 
+
+Don’t be just another monkey with a DSLR. Be that passionate photographer who can capture the things that only your heart can see, the feelings that can be experienced just once, and the emotions that can never be experienced again. And only a true, enthusiast photographer can capture these feelings and emotions in a photograph. And if you dream to be that one photographer, you need a DSLR camera. <br>
+A lot has been debated about whether a camera is what makes the photograph beautiful or the way it has been clicked. Personally, it’s both, the camera is as important as the way you click the photo. You can definitely click beautiful images with your point-and-shoot camera and your basic smartphone, but if you want that depth and feel to be seen in your photograph, a DSLR camera is a must.
+Getting the knack of using a DSLR camera is a little tricky, however, once you get the hold of it, there will be no end to your passion and creativity. So if you already have a DSLR camera, go ahead and discover the hidden photographer in you. If you don’t and love to own one, then take a look at the different things you need to look into before buying a DSLR camera. <br>
+ 
+<p style = "font-size: 15px;color:rgb(131, 131, 131);">How to choose a Branded DSLR camera?</p><br>
+ 
+DSLR cameras are not cheap, they’re expensive. And while spending that much amount, it’s always better to pick a DSLR camera from a reputed brand such as <a class = "color2" href = "#">Nikon</a>, <a class = "color2" href = "#">Canon</a>, <a class = "color2" href = "#">Fujifilm</a> or <a class = "color2" href = "#">Sony</a>. The Nikon DSLR cameras boast of user-friendliness, while Canon boasts of brilliant colour clarity, Fujifilm is known for enhanced image quality and Sony is known for its adaptability features. <br>
+
+Get the Budget Right: There’s no point in spending too much on something that you won’t need. So get your priorities right and do your research and only then pick a DSLR camera that falls within your budget. <br>
+
+Features: Many photographers upgrade their point-and-shoot camera to a DSLR because DSLR camera offers better image quality, better adaptability features, speed, large ISO range, depth of field and more manual controls. So before you pick a camera, make sure you look into all these features and then buy the one that suits your requirements. <br>
+
+So once you know which camera you need, the next thing you need to do is log on to your favourite e-store and buy the DSLR online. 
+            </div><br> <br> <br>
+
+            <div style = "position: absolute;top:524px;left: 24px;line-height: 17px;display: flexbox;">
+    
+        Trending  Now: <a class = "color2" href = "#">Nikon D5300</a><br> <br>
+ 
+
+<b style = "font-size: 11px;display: flexbox;">Buy DSLR Cameras Online to Effortlessly Shoot High-quality Photos <br> <br>
+
+ 
+If you’re looking for a new camera, you’ve likely come across DSLR cameras. DSLRs use a digital sensor to capture images, which are then stored on a memory card. Most of these cameras have interchangeable lenses, which allows you to change the focal length and field of view to suit your needs. They also have manual controls for things like aperture, shutter speed, and ISO settings. This gives you more control over your photos and allows you to create the exact look you want. You can explore a slew of the latest DSLR cameras online from brands, Canon, Nikon, Sony, FUJIFILM, Panasonic, Pentax, and more. And, you can also check out mini cameras (DSLR). <br> <br>
+
+ 
+Benefits of the Latest DSLR Cameras <br><br>
+ 
+
+There are many benefits of using these cameras, including the ability to capture high-quality images, the flexibility to change lenses, and the option to use manual settings. cameras are ideal for capturing high-quality images, due to their large sensors and powerful processors. DSLR cameras also offer the flexibility to change lenses, depending on the type of photography you're doing. And, if you're looking to get more creative with your photography, these cameras also offer the option to use manual settings, giving you complete control over your image. <br> <br>
+
+ 
+Types of Digital Cameras <br><br>
+ 
+
+You can either go for a traditional digital single-lens camera or a mirrorless one. Traditional cameras offer a variety of features that appeal to amateur and professional photographers alike. They typically have a large sensor size, which allows for better image quality, and they also offer a wide variety of interchangeable lenses so that you can customise your photography experience. Mirrorless digital cameras are compact and light in weight, yet they can produce high-quality images. So, buy DSLR cameras online and shoot high-quality photos without any hassles. </b>
+            </div><br> <br>
+
+            <div style = "position: absolute;top:52%">
+                
+                <p style = "position: absolute;top:-23px;left:24px;font-size: 15px;color:rgb(112, 112, 112);"> DSLR Cameras Prices </p> <br>
+
+                <div style = "position: relative;top:18px;left: 24px;"> 
+                    
+                    <table>
+
+                    <tr>
+                        <th> DSLR Cameras </th>
+
+                        <th> Price </th>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">FUJIFILM X Series X-T200 Mirrorless Camera Body with 15-45 mm Lens</a> </td>
+
+                        <td> Rs 61999 </td>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">Canon EOS 200D II DSLR Camera EF-S18-55mm IS STM</a> </td>
+
+                        <td> Rs 56499 </td>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">NIKON D7500 DSLR Camera Body with 18-140 mm Lens</a> </td>
+
+                        <td> Rs 94950 </td>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">Panasonic G Series DC-G95MGW-K Mirrorless Camera Body with Single Lens: 12-60mm lens</a> </td>
+
+                        <td> Rs 90189 </td>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">FUJIFILM X Series X-T4 Mirrorless Camera Body Only</a> </td>
+
+                        <td> Rs 143999 </td>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">Panasonic G Series DC-G95HGW-K Mirrorless Camera G95 with 14-140mm lens</a> </td>
+
+                        <td> Rs 99251 </td>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens</a> </td>
+
+                        <td> Rs 58995 </td>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">FUJIFILM X Series X-T200 Mirrorless Camera Body with 15-45 mm Lens</a> </td>
+
+                        <td> Rs 61999 </td>
+                    </tr>
+                    <tr>
+                        <td> <a class = "color2" href="#">NIKON D5600 DSLR Camera Body with Dual Lens: AF-P DX Nikkor 18 - 55 MM F/3.5-5.6G VR and 70-300 MM F/4.5-6.3G ED VR</a> </td>
+
+                        <td> Rs 64644 </td>
+                    </tr>
+                    
+                </div>
+
+                </table>
+            </div>
+
+            <div style = "position: absolute;top:220px;width:191%;color:black;font-size: 12px;">
+                <p style = "font-size: 15px;padding:10px 24px;border-bottom:1px solid gainsboro;"> <b>Question and Answers</b> </p>
+            
+            <div style = "border-bottom:1px solid gainsboro;padding:10px 24px 10px;line-height: 16px;">
+                Q.What is a DSLR camera?<br>
+A.A Digital Single Lens Reflex (DSLR) camera is a <a class = "color2" href = "#">digital camera</a> that allows for interchangeable lenses on a single camera body. It is a suitable <a class = "color2" href = "#">camera</a> for budding photographers and professionals alike.
+                
+            </div>
+            <div style = "border-bottom:1px solid gainsboro;padding:10px 24px 10px;line-height: 16px;">
+                Q.What are the different modes on a DSLR camera?<br>
+A.There are several modes like Manual Mode, Autofocus Mode, Program Mode, Auto Mode, using which you can operate your camera.
+            </div>
+            <div style = "border-bottom:1px solid gainsboro;padding:10px 24px 10px;line-height: 16px;">
+                Q.Which is the best DSLR camera for beginners?<br>
+A.Nikon D3500, Canon EOS 80D, and Canon EOS Rebel are some of the best entry-level DSLRs available in the Indian market.
+            </div>
+            <div style = "border-bottom:1px solid gainsboro;padding:10px 24px 10px;line-height: 16px;">
+                Q.Which is the best DSLR camera under 40,000 INR?<br>
+A.You can buy an entry-level camera if you are an amateur photographer. You can consider a semi-professional camera if you have prior experience in photography. A professional DSLR camera is suitable for advanced photographers.
+            </div>
+            <div style = "border-bottom:1px solid gainsboro;padding:10px 24px 10px;line-height: 16px;">
+                Q.What are the best DSLR models available in the ?25k-45k range?<br>
+A.Canon EOS 3000D, Fujifilm X Series X-A7, and Panasonic 4K G Series Lumix G85K are some of the best camera options available in the ?25k-45k range.
+            </div>
+            <div style = "border-bottom:1px solid gainsboro;padding:10px 24px 10px;line-height: 16px;">
+                Q.Where can I buy DSLR cameras?<br>
+A.You can purchase DSLR cameras on online at Flipkart, that host a good collection of cameras suitable for beginners and professionals.
+            </div>
+            <div style = "border-bottom:1px solid gainsboro;padding:10px 24px 10px;line-height: 16px;">
+                Q.Which is the best DSLR camera under 50,000 INR?<br>
+A.FUJIFILM X Series X-T200 Camera Body with 15-45 mm Lens and Canon EOS 3000D DSLR Camera with 18 - 55 mm Lens are the best DSLR cameras you can buy for under 50,000 rupees.
+            </div>
+            <div style = "border-bottom:1px solid gainsboro;padding:10px 24px 10px;line-height: 16px;">
+                Q.Why is a DSLR better than point-and-shoot cameras?<br>
+A.A DSLR camera will provide you with high-quality photographs. In addition, these cameras offer an excellent battery life, enabling you to capture over 500 shots on a single charge cycle.
+            </div>
+            <div style = "padding:10px 24px 10px;line-height: 16px;">
+                Q.What are the advantages of DSLR cameras?<br>
+A.DSLR cameras can provide clarity, sharpness, and better resolution photographs. The interchangeable lens facility can offer great versatility that can help you enhance your photography experience.
+            </div>
+
+        </div>
+
+        <div id = "heading14" style = "width:191.2%;position: absolute;top:438%;">
+
+            <div id = "internal1">
+
+                <div id = "scrol1">
+
+                        <p id = "scroll1"> ABOUT </p>
+
+                            <div id = "scroll11">
+
+                                <a class = "scrol1" href="#"> Contact Us  
+                                <a class = "scrol1" href="#"> About Us  
+                                <a class = "scrol1" href="#"> Careers </a>
+                                <a class = "scrol1" href="#"> Flipkart Stories </a>
+                                <a class = "scrol1" href="#"> Press </a>
+                                <a class = "scrol1" href="#"> Flipkart Wholesale </a>
+                                <a class = "scrol1" href="#"> Corporate Information </a>
+                                
+                            </div>
+
+                </div>
+
+                <div id = "scrol2">
+
+                    <p id = "scroll1"> HELP </p>
+
+                            <div id = "scroll11">
+
+                                <a class = "scrol1" href="#"> Payments </a>
+                                <a class = "scrol1" href="#"> Shipping </a>
+                                <a class = "scrol1" href="#"> Cancellation & Returns </a>
+                                <a class = "scrol1" href="#"> FAQ </a>
+                                <a class = "scrol1" href="#"> Report Infringement </a>
+                                <a class = "scrol1" href="#">  </a>
+                                <a class = "scrol1" href="#">  </a>
+                                
+                            </div>
+
+                </div>
+
+                <div id = "scrol3">
+
+                    <p id = "scroll1"> CONSUMER POLICY </p>
+
+                            <div id = "scroll11">
+
+                                <a class = "scrol1" href="#"> Cancellation & Returns </a>
+                                <a class = "scrol1" href="#"> Terms Of Use </a>
+                                <a class = "scrol1" href="#"> Security </a>
+                                <a class = "scrol1" href="#"> Privacy </a>
+                                <a class = "scrol1" href="#"> Sitemap </a>
+                                <a class = "scrol1" href="#"> Grievance Redressal </a>
+                                <a class = "scrol1" href="#"> EPR Compliance </a>
+                                
+                            </div>
+
+                </div>
+
+                <div id = "scrol4">
+
+                    <p id = "scroll1"> SOCIAL </p>
+
+                            <div id = "scroll11">
+
+                                <a class = "scrol1" href="#"> Facebook </a>
+                                <a class = "scrol1" href="#"> Twitter </a>
+                                <a class = "scrol1" href="#"> YouTube </a>
+                                
+                            </div>
+
+                </div>
+
+                <div id = "scrol5">
+
+                    <p id = "scroll1"> Mail Us: </p>
+
+                            <div id = "scroll11">
+
+                                <p style = "color:white;font-family: 'Nirmala UI';font-size: 13px;padding:3px;padding-left: 25px;"> 
+                                    
+                                    Flipkart Internet Private Limited, <br>
+
+                                    Buildings Alyssa, Begonia & <br>
+                                    
+                                    Clove Embassy Tech Village, <br>
+                                    
+                                    Outer Ring Road, Devarabeesanahalli Village, <br>
+                                    
+                                    Bengaluru, 560103, <br>
+                                    
+                                    Karnataka, India 
+                                
+                                </p>
+                                
+                            </div>
+
+
+                </div>
+
+                <div id = "scrol6">
+
+                    <p id = "scroll1"> Registered Office Address: </p>
+
+                            <div id = "scroll11">
+
+                                <p style = "color:white;font-family: 'Nirmala UI';font-size: 13px;padding-left: 4px;">
+                                    
+                                    Flipkart Internet Private Limited, <br>
+
+                                    Buildings Alyssa, Begonia & <br>
+                                    
+                                    Clove Embassy Tech Village, <br>
+                                    
+                                    Outer Ring Road, Devarabeesanahalli Village, <br>
+                                    
+                                    Bengaluru, 560103, <br>
+                                    
+                                    Karnataka, India <br>
+                                    
+                                    CIN : U51109KA2012PTC066107 <br>
+                                    
+                                    Telephone: 044-45614700
+                                
+                                </p>
+                                
+                            </div>
+
+
+                </div>
+
+            </div>
+
+            <div id = "internal2">
+
+                <div id = "scrol11">
+
+                    <a href="#" style = "color:white;text-decoration: none;"> Become a Seller </a>
+
+                </div>
+
+                <div id = "scrol12">
+
+                    <a href="#" style = "color:white;text-decoration: none;"> Advertise </a>
+
+                </div>
+
+                <div id = "scrol13">
+
+                    <a href="#" style = "color:white;text-decoration: none;"> Gift Cards </a>
+
+                </div>
+
+                <div id = "scrol14">
+
+                    <a href="#" style = "color:white;text-decoration: none;"> Help center </a>
+
+                </div>
+
+                <div id = "scrol15">
+
+                    <a href="#" style = "color:white;text-decoration: none;"> Become a Seller </a>
+
+                </div>
+
+                <div id = "scrol16">
+
+                    <div class = "inline1" > <img style = "background-color: white;border-radius: 30px;" src = "visa logo.avif" width = "40px"> </div>
+
+                    <div class = "inline1"> <img src = "MasterCard Logo.jpg" width = "40px" style = "border-radius: 30px;margin-bottom: 4px;"> </div>
+
+                    <div class = "inline1"> <img src = "cc-apple-pay.svg" width = "40px" style = "border:1px solid white;border-radius: 30px;background-color: white;"> </div>
+
+                    <div class = "inline1"> <img src = "American_Express logo.png" width = "40px" style = "border-radius: 30px;"> </div>
+
+                    <div class = "inline1"> <img src = "simple pay logo.jpg" width = "40px" style = "border-radius: 30px;margin-bottom: 7px;"> </div>
+
+                    <div class = "inline1"> <img src = "Discover logo.png" width = "40px" style = "border-radius: 30px;margin-bottom: 6px;"> </div>
+
+                    <div class = "inline1"> <img src = "rupay logo.jpg" width = "40px" style = "border-radius: 30px;margin-bottom: 12px;"> </div>
+
+                    <div class = "inline1"> <img src = "Net Banking logo.webp" width = "40px" style = "border-radius: 30px;"> </div>
+
+                    <div class = "inline1"> <img src = "cc-stripe.svg" width = "40px" style = "border:1px solid white;border-radius: 30px;background-color: white;"> </div>
+
+                    <div class = "inline1"> <img src = "Kredit bee logo.png" width = "40px" style = "border-radius: 30px;margin-bottom: 14px;"> </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+ 
+        </div>
+
+    </body>
+
+</html>
