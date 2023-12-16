@@ -1,2 +1,2 @@
-# FlipkartDemo
+# FlipkartDemoProject
 democopy product file
